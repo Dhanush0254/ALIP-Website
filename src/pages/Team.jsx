@@ -14,43 +14,62 @@ export const Team = () => {
           </p>
         </div>
 
-        <div className="bg-navy-900 border border-white/5 rounded-2xl p-8 md:p-12 mb-12 shadow-2xl">
-          <div className="text-[11px] font-semibold text-indigo-400 tracking-widest uppercase mb-4">
-            Full Stack Developer & Project Lead
-          </div>
-          <h2 className="text-3xl font-bold font-heading text-slate-100 mb-4">Dhanush</h2>
-          <p className="text-slate-400 mb-8 leading-[1.7] max-w-2xl">
-            <strong className="text-slate-300">Responsibilities:</strong> MERN stack · FastAPI · RAG pipelines · FAISS · Gemini AI integration · System architecture
-          </p>
-          
-          <div className="flex flex-wrap gap-4 mb-10">
-            <a href="https://github.com/Dhanush0254" target="_blank" rel="noreferrer" className="px-5 py-2.5 bg-navy-800 border border-white/10 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-navy-700 transition-colors">
-              GitHub Profile
-            </a>
-            <a href="https://dhanush-a.netlify.app" target="_blank" rel="noreferrer" className="px-5 py-2.5 bg-navy-800 border border-white/10 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-navy-700 transition-colors">
-              Portfolio
-            </a>
-            <a href="#" target="_blank" rel="noreferrer" className="px-5 py-2.5 bg-navy-800 border border-white/10 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-navy-700 transition-colors">
-              LinkedIn
-            </a>
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
+          <div className="bg-navy-900 border border-white/5 rounded-2xl p-8 shadow-xl">
+            <div className="text-[11px] font-semibold text-indigo-400 tracking-widest uppercase mb-6">
+              Team Members (Batch D1)
+            </div>
+            <div className="flex flex-col gap-4">
+              <div className="flex items-center justify-between border-b border-white/5 pb-4">
+                <div className="font-heading font-semibold text-slate-100">A Dhanush</div>
+                <div className="text-sm text-slate-400 font-mono bg-navy-800 px-2 py-1 rounded">23K91A0501</div>
+              </div>
+              <div className="flex items-center justify-between border-b border-white/5 pb-4">
+                <div className="font-heading font-semibold text-slate-100">Ale Vijayalaxmi</div>
+                <div className="text-sm text-slate-400 font-mono bg-navy-800 px-2 py-1 rounded">23K91A0508</div>
+              </div>
+              <div className="flex items-center justify-between border-b border-white/5 pb-4">
+                <div className="font-heading font-semibold text-slate-100">Burri Mallikarjun</div>
+                <div className="text-sm text-slate-400 font-mono bg-navy-800 px-2 py-1 rounded">23K91A0549</div>
+              </div>
+              <div className="flex items-center justify-between pb-2">
+                <div className="font-heading font-semibold text-slate-100">Atragada Nagatrimurthulu</div>
+                <div className="text-sm text-slate-400 font-mono bg-navy-800 px-2 py-1 rounded">23K91A0517</div>
+              </div>
+            </div>
           </div>
 
-          <div className="border-t border-white/5 pt-8 grid sm:grid-cols-2 md:grid-cols-4 gap-6">
-            <div>
-              <div className="text-xs text-slate-500 mb-1">CGPA</div>
-              <div className="text-lg font-bold text-slate-200">8.46</div>
+          <div className="flex flex-col gap-6">
+            <div className="bg-navy-900 border border-white/5 rounded-2xl p-8 shadow-xl flex-1">
+              <div className="text-[11px] font-semibold text-indigo-400 tracking-widest uppercase mb-4">
+                Under the guidance of
+              </div>
+              <h2 className="text-2xl font-bold font-heading text-slate-100 mb-2">Ragahavendra</h2>
+              <p className="text-sm text-slate-400">Department of Computer Science & Engineering</p>
             </div>
-            <div>
-              <div className="text-xs text-slate-500 mb-1">College</div>
-              <div className="text-sm font-medium text-slate-200">TKR College of Eng.</div>
-            </div>
-            <div>
-              <div className="text-xs text-slate-500 mb-1">Batch</div>
-              <div className="text-sm font-medium text-slate-200">2023–2027</div>
-            </div>
-            <div>
-              <div className="text-xs text-slate-500 mb-1">Branch</div>
-              <div className="text-sm font-medium text-slate-200">CSE</div>
+            
+            <div className="bg-navy-900 border border-white/5 rounded-2xl p-8 shadow-xl flex-1">
+              <div className="text-[11px] font-semibold text-indigo-400 tracking-widest uppercase mb-4">
+                Academic Details
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <div className="text-xs text-slate-500 mb-1">College</div>
+                  <div className="text-sm font-medium text-slate-200">TKR College of Eng.</div>
+                </div>
+                <div>
+                  <div className="text-xs text-slate-500 mb-1">Branch</div>
+                  <div className="text-sm font-medium text-slate-200">CSE</div>
+                </div>
+                <div>
+                  <div className="text-xs text-slate-500 mb-1">Batch</div>
+                  <div className="text-sm font-medium text-slate-200">2023–2027</div>
+                </div>
+                <div>
+                  <div className="text-xs text-slate-500 mb-1">Project</div>
+                  <div className="text-sm font-medium text-slate-200">Final Year</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
