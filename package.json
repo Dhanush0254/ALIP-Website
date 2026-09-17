@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Dhanush0254.github.io/alip-website",
+  "homepage": "https://Dhanush0254.github.io/ALIP-Website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
